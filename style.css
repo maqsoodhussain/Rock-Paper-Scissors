@@ -38,3 +38,36 @@ img{
     cursor: pointer;
     background-color: black;
 }
+
+.scrore_board{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1rem;
+   margin-top: 3rem;
+   gap: 4rem;
+   
+}
+
+.msg-container{
+   text-align: center;
+   margin-top: 1rem;
+}
+#user-score,#comp-score{
+    font-size: 2rem;
+}
+#msg{
+    background-color:black;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    display: inline;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#msg:hover{
+    border:solid 4px rgb(105, 25, 59);
+}
