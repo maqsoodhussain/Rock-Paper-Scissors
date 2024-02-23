@@ -4,12 +4,15 @@
 }
 
 h1{
+
     background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 1px;
 }
 
 .choice{
@@ -53,9 +56,12 @@ img{
 .msg-container{
    text-align: center;
    margin-top: 1rem;
+   padding-top: 20px;
+   
 }
 #user-score,#comp-score{
     font-size: 2rem;
+    font-weight: bold;
 }
 #msg{
     background-color:black;
@@ -66,6 +72,7 @@ img{
     border-radius: 8px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 #msg:hover{
